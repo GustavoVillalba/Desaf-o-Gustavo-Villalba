@@ -1,0 +1,243 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: 0px;
+
+}
+
+body{
+  background-color: #e6dfad;
+}
+
+h1{
+    background-color: #7D9D9C;
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+header nav ul{
+    column-gap: 80px;
+    display: flex;
+    justify-content: center;
+ 
+
+}
+
+header nav ul li{
+    font-family: 'Lobster', cursive;
+    list-style: none;
+    background-color: #7D9D9C;
+    border-radius: 20px;
+    margin-bottom: 50px;
+    
+}
+
+nav ul li a{
+  color: black;
+}
+
+.bg-menu{
+  background-color: #FFF9CA;
+}
+
+.logo{
+  width: 300px;
+  height: 60px;
+}
+
+
+.imgStand{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.imgBanner{
+  width: 1000px;
+  height: 600px;
+  justify-items: center;
+}
+
+.classIframe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+iframe{
+  height: 400px;
+  width: 650px;
+}
+
+/* ESTILOS DE FOOTER */
+
+footer{
+    font-family: 'Lobster', cursive;
+    background-color: #FFF9CA;
+    text-align: center;
+    
+}
+
+
+/* ESTILOS DE GALERÍA */
+
+body {
+    margin: 0;
+    font-family: Arial;
+    background: #E4DCCF;
+  }
+
+
+  .header {
+    text-align: center;
+   
+    background: #E0DDDD;
+  }
+  
+  
+  #gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 0 4px;
+  }
+  
+  #gallery img {
+    width: 25%;
+    height: 300px;
+    object-fit: cover;
+    margin-top: 8px;
+    padding: 0 4px;
+    border-radius: 10px;
+  }
+
+
+/* ESTILOS INSUMOS.HTML */
+
+.card-azucar{
+  text-align: center;
+}
+.card-aceite{
+  text-align: center;
+}
+.card-maiz{
+  text-align: center;
+}
+.card-esencia{
+  text-align: center;
+}
+
+.iframe-insumos{
+  margin-top: 20px;
+}
+
+.pInsumos{
+  text-align: center;
+}
+
+/* ESTILOS NOSOTROS.HTML */
+
+.pNosotros{
+  text-align: center;
+}
+
+.iframe-nosotro{
+  margin-top: 20px;
+}
+
+/* ESTILOS CONTACTO.HTML */
+
+.pContacto{
+  text-align: center;
+}
+
+
+
+  /* MEDIA QUERIES */
+
+
+  
+  @media (max-width: 800px) {
+    #gallery img {
+      width: 50%;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    #gallery img {
+      width: 100%;
+    }
+  }
+  
+  @media (max-width: 800px) {
+    .imgStand {
+      width: 50%;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .imgStand {
+      width: 100%;
+    }
+  }
+
+  @media (max-width: 600px) 
+   {
+    header nav ul{
+      column-gap: 20px;
+      display: flex;
+      justify-content: center;
+   
+  
+  }
+  
+  header nav ul li{
+      font-family: 'Lobster', cursive;
+      list-style: none;
+      background-color: #7D9D9C;
+      border-radius: 20px;
+      margin-bottom: 50px;
+  }
+
+  .imgBanner{
+    margin-left: 6px;
+    width: 470px;
+    height: 350px;
+  }
+
+  .flexParrafo{
+    width: 90%;
+    display: flex;
+    font-size: 14px;
+    text-align: center;
+
+  }
+  .classIframe{
+    position: relative;
+    padding-bottom: 56,25%;
+    padding-top: 300px;
+    height: 0px;
+  }
+
+.classIframe iframe{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+footer {
+  margin-top: 50px;
+}
+
+  }
+
+   
+    
