@@ -201,7 +201,7 @@ body {
   background-color: #e6ffff;
   border: none;
   border-radius: 10px;
-  letter-spacing: 3px;
+  letter-spacing: 5px;
   text-transform: uppercase;
   cursor: pointer;
   padding: 15px;
@@ -230,7 +230,7 @@ body {
   background-color: #e6ffff;
   border: none;
   border-radius: 10px;
-  letter-spacing: 3px;
+  letter-spacing: 5px;
   text-transform: uppercase;
   cursor: pointer;
   padding: 15px;
@@ -243,7 +243,6 @@ body {
   min-height: 100px;
   max-height: 250px;
   max-width: 100%; }
-
 
 
 
