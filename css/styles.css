@@ -186,7 +186,7 @@ body {
   text-align: center; }
 
 .contenedor .elemento label {
-  color: white; }
+  color: black; }
 
 .contenedor .elemento input {
   width: 95%;
@@ -224,7 +224,7 @@ body {
   background-color: #e6ffff; }
 
 .recibir-email {
-  color: white; }
+  color: black; }
 
 .contenedor .elemento input[type="reset"] {
   background-color: #e6ffff;
