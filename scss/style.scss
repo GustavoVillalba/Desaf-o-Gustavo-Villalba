@@ -1,0 +1,74 @@
+/*VARIABLES*/ 
+$fuente: 'Lobster', cursive;
+
+
+/*ESTILOS DEL BODY*/ 
+body{
+    background-color: #e6dfad;
+  } 
+/*ESTILOS DEL H1*/   
+  h1{
+    background-color:white;
+    font-family: $fuente;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  /*ESTILOS DEL HEADER*/ 
+header{
+    nav{
+        ul{
+            column-gap: 80px;
+            display: flex;
+            justify-content: center; 
+        }
+        li{
+            font-family: $fuente;
+            list-style: none;
+            background-color: #7D9D9C;
+            border-radius: 20px;
+            margin-bottom: 50px;
+        }
+        a{
+            color: black; 
+        }
+        .logo{
+            width: 300px;
+            height: 60px;
+          }        
+    }
+}
+
+
+
+.imgStand{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    }
+    .imgBanner{
+        width: 1000px;
+        height: 600px;
+        justify-items: center;
+    }
+
+    
+.classIframe{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+    iframe{
+        height: 400px;
+        width: 650px;
+      }
+
+/*ESTILOS DEL FOOTER*/ 
+
+footer{
+        font-family: $fuente;
+        background-color: #FFF9CA;
+        text-align: center;
+        
+    }
