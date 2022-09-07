@@ -4,11 +4,35 @@ body {
   background-color: #F5E8C7; }
 
 .vasocopo:hover {
-  transform: scale(1.1);
+  transform: scale(0.9);
   box-shadow: 1px 1px 10px black; }
 
 .cajapochoclos:hover {
-  transform: scale(1.1);
+  transform: scale(0.9);
+  box-shadow: 1px 1px 10px black; }
+
+.bolsonPochoclos:hover {
+  transform: scale(0.9);
+  box-shadow: 1px 1px 10px black; }
+
+.algodonBolsa:hover {
+  transform: scale(0.9);
+  box-shadow: 1px 1px 10px black; }
+
+.azucar:hover {
+  transform: scale(0.9);
+  box-shadow: 1px 1px 10px black; }
+
+.aceite:hover {
+  transform: scale(0.9);
+  box-shadow: 1px 1px 10px black; }
+
+.maiz:hover {
+  transform: scale(0.9);
+  box-shadow: 1px 1px 10px black; }
+
+.esencia:hover {
+  transform: scale(0.9);
   box-shadow: 1px 1px 10px black; }
 
 /*ESTILOS DEL H1*/
@@ -35,22 +59,46 @@ header {
   header nav a {
     color: black; }
   header nav .logo {
-    width: 300px;
-    height: 60px; }
+    width: 80px;
+    height: 80px; }
 
 .pNosotros {
   font-family: 'Caveat', cursive;
   font-weight: bold;
   text-align: center;
-  font-size: 1.5rem; }
+  font-size: 1rem;
+  text-transform: uppercase;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 100px;
+  margin-right: 100px; }
 
 .pInsumos {
   font-weight: bold;
   font-family: 'Caveat', cursive;
   text-transform: uppercase;
-  text-align: center; }
+  text-align: center;
+  margin: 30px; }
+
+.pGaleria {
+  font-family: 'Caveat', cursive;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+  margin: 30px; }
+
+.pIndex {
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 50px; }
+
+.tituloContacto {
+  font-family: 'Caveat', cursive;
+  text-transform: uppercase; }
 
 .imgStand {
+  width: 500px;
+  height: 350px;
   display: flex;
   justify-content: center;
   align-items: center;
