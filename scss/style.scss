@@ -1,62 +1,52 @@
-
-
-
-/*VARIABLES*/ 
+/*map*/ 
+$colorStand: #F5E8C7; 
 $fuente: 'Lobster', cursive;
 
-
-
-
+/*extend*/
+%titulos-label {
+    color: black;
+}
 /*ESTILOS DEL BODY*/ 
 body{
-    background-color: #F5E8C7;
+    background-color: $colorStand;
     
   } 
 
-.vasocopo:hover{
+@mixin escalar {
     transform: scale(0.9);
     box-shadow: 1px 1px 10px black;
 }
-
+.vasocopo:hover{
+    @include escalar;
+}
 
 .cajapochoclos:hover{
-    transform: scale(0.9);
-    box-shadow: 1px 1px 10px black;
-    
-    
+    @include escalar;  
 }
 
 .bolsonPochoclos:hover{
-    transform: scale(0.9);
-    box-shadow: 1px 1px 10px black;
+    @include escalar;
 }
 
-
-
 .algodonBolsa:hover{
-    transform: scale(0.9);
-    box-shadow: 1px 1px 10px black;
+    @include escalar;
 }
 
 .azucar:hover{
-    transform: scale(0.9);
-    box-shadow: 1px 1px 10px black;
+    @include escalar;
     
 }
 
 .aceite:hover{
-    transform: scale(0.9);
-    box-shadow: 1px 1px 10px black;
+    @include escalar;
 }
 
 .maiz:hover{
-    transform: scale(0.9);
-    box-shadow: 1px 1px 10px black;
+    @include escalar;
 }
 
 .esencia:hover{
-    transform: scale(0.9);
-    box-shadow: 1px 1px 10px black;
+    @include escalar;
 }
 
 
@@ -87,7 +77,7 @@ header{
             margin-top: 5px;
         }
         a{
-            color: black; 
+            @extend %titulos-label; 
         }
         .logo{
             width: 80px;
@@ -193,23 +183,23 @@ width: 50%;
     margin: 0 0 30px;
     padding: 0;
     font-size: 30px;
-    color: black;
+    @extend %titulos-label;
     text-align: center; }
   
   .contenedor .elemento label {
-    color: black; }
+    @extend %titulos-label; }
   
   .contenedor .elemento input {
     width: 95%;
     padding: 10px 0;
-    color: black;
-    background: #F5E8C7;
+    @extend %titulos-label;
+    background: $colorStand;
     border: none;
     border-bottom: 1px solid black;
     margin-bottom: 30px; }
   
   .contenedor .elemento input[type="submit"] {
-    background-color: #F5E8C7;
+    background-color: $colorStand;
     border: none;
     border-radius: 10px;
     letter-spacing: 3px;
@@ -232,13 +222,13 @@ width: 50%;
     border: 1px solid black;
     border-radius: 5px;
     appearance: none;
-    background-color: #F5E8C7; }
+    background-color: $colorStand; }
   
   .recibir-email {
-    color: black; }
+    @extend %titulos-label; }
   
   .contenedor .elemento input[type="reset"] {
-    background-color: #F5E8C7;
+    background-color: $colorStand;
     border: none;
     border-radius: 10px;
     letter-spacing: 3px;
@@ -249,7 +239,7 @@ width: 50%;
   
   .textArea {
     margin: 10px 10px 10px 0px;
-    background-color: #F5E8C7;
+    background-color: $colorStand;
     box-sizing: border-box;
     min-height: 100px;
     max-height: 250px;
