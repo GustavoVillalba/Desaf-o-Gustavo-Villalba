@@ -118,8 +118,82 @@ header {
 
 iframe {
   margin: 20px;
-  height: 200px;
-  width: 325px; }
+  height: 300px;
+  width: 525px; }
+
+/*ESTILOS DE CONTACTO*/
+.contenedor {
+  margin: 50px auto;
+  width: 500px;
+  padding: 50px;
+  background: #AC7088;
+  border-radius: 35px; }
+
+.contenedor h2 {
+  margin: 0 0 30px;
+  padding: 0;
+  font-size: 30px;
+  color: black;
+  text-align: center; }
+
+.contenedor .elemento label {
+  color: black; }
+
+.contenedor .elemento input {
+  width: 95%;
+  padding: 10px 0;
+  color: black;
+  background: #F5E8C7;
+  border: none;
+  border-bottom: 1px solid black;
+  margin-bottom: 30px; }
+
+.contenedor .elemento input[type="submit"] {
+  background-color: #F5E8C7;
+  border: none;
+  border-radius: 10px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  cursor: pointer;
+  padding: 15px;
+  margin-top: 30px; }
+
+.select-css {
+  display: block;
+  font-size: 16px;
+  font-weight: 400;
+  color: #450;
+  line-height: 1.5;
+  padding: 10px;
+  width: 365px;
+  max-width: 100%;
+  box-sizing: border-box;
+  margin: 15px -5px;
+  border: 1px solid black;
+  border-radius: 5px;
+  appearance: none;
+  background-color: #F5E8C7; }
+
+.recibir-email {
+  color: black; }
+
+.contenedor .elemento input[type="reset"] {
+  background-color: #F5E8C7;
+  border: none;
+  border-radius: 10px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  cursor: pointer;
+  padding: 15px;
+  margin-top: 30px; }
+
+.textArea {
+  margin: 10px 10px 10px 0px;
+  background-color: #F5E8C7;
+  box-sizing: border-box;
+  min-height: 100px;
+  max-height: 250px;
+  max-width: 100%; }
 
 /*ESTILOS DEL FOOTER*/
 footer {
@@ -129,3 +203,10 @@ footer {
   footer .imginsta {
     margin-left: 30px;
     margin-right: 30px; }
+
+/*MEDIA QUERIES*/
+@media screen and (max-width: 600px) {
+  .contenedor {
+    width: 400px; }
+  iframe {
+    width: 400px; } }
