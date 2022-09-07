@@ -70,8 +70,12 @@ header {
   text-transform: uppercase;
   margin-top: 30px;
   margin-bottom: 30px;
-  margin-left: 100px;
-  margin-right: 100px; }
+  margin-left: 10px;
+  margin-right: 10px; }
+
+.parrafo {
+  background-color: #DEB6AB;
+  width: 50%; }
 
 .pInsumos {
   font-weight: bold;
@@ -88,17 +92,23 @@ header {
   margin: 30px; }
 
 .pIndex {
+  font-family: 'Caveat', cursive;
+  font-weight: bold;
   text-align: center;
-  margin-top: 15px;
-  margin-bottom: 50px; }
+  font-size: 1rem;
+  text-transform: uppercase;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 10px;
+  margin-right: 10px; }
 
 .tituloContacto {
   font-family: 'Caveat', cursive;
   text-transform: uppercase; }
 
 .imgStand {
-  width: 500px;
-  height: 350px;
+  width: 650px;
+  height: 490px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -122,6 +132,9 @@ iframe {
   width: 525px; }
 
 /*ESTILOS DE CONTACTO*/
+.tituloContacto {
+  margin-top: 25px; }
+
 .contenedor {
   margin: 50px auto;
   width: 500px;
@@ -195,6 +208,18 @@ iframe {
   max-height: 250px;
   max-width: 100%; }
 
+/*ESTILOS DE LA GALERIA*/
+#container {
+  display: grid;
+  padding: 1rem;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(3, 450px);
+  grid-template-rows: 450px 450px;
+  justify-content: center; }
+
+.hijo {
+  padding: 1rem; }
+
 /*ESTILOS DEL FOOTER*/
 footer {
   font-family: "Lobster", cursive;
@@ -206,7 +231,22 @@ footer {
 
 /*MEDIA QUERIES*/
 @media screen and (max-width: 600px) {
+  .imgStand {
+    height: 330px;
+    width: 420px; }
+  #container {
+    display: grid;
+    padding: 1rem;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(1, 450px);
+    grid-template-rows: repeat(6, 450px);
+    justify-content: center; }
+  .hijo {
+    padding: 1rem; }
   .contenedor {
     width: 350px; }
   iframe {
-    width: 400px; } }
+    width: 370px; }
+  .parrafo {
+    background-color: #DEB6AB;
+    width: 90%; } }
