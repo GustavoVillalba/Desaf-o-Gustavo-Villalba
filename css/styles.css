@@ -208,7 +208,7 @@ iframe {
   padding: 1rem;
   grid-gap: 1rem;
   grid-template-columns: repeat(3, 450px);
-  grid-template-rows: 450px 450px;
+  grid-template-rows: 450px 450px 450px 450px;
   justify-content: center; }
 
 .hijo {
@@ -244,3 +244,20 @@ footer {
   .parrafo {
     background-color: #DEB6AB;
     width: 90%; } }
+
+@media only screen and (min-width: 601px) and (max-width: 991px) {
+  #container {
+    display: grid;
+    padding: 1rem;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(2, 270px);
+    grid-template-rows: repeat(6, 450px);
+    justify-content: center; }
+  .hijo {
+    height: 360px;
+    animation-name: none; }
+  div img {
+    width: 240px;
+    height: 330px; }
+  .margin {
+    padding-right: 20px; } }
